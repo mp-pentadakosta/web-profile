@@ -44,7 +44,7 @@ jobs:
           script: |
             NAME=web-profile
             IMAGE_NAME=${{ secrets.DOCKER_USERNAME }}/${NAME}:${{ github.sha }}
-            PORT=3008
+            PORT=8085
 
             echo ">>> Pull image terbaru"
             docker pull $IMAGE_NAME
