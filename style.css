@@ -320,6 +320,11 @@ h1 {
   overflow-wrap: anywhere;
 }
 .contact-list a:hover { color: #9fd8b8; }
+.btn-contact {
+  margin-top: 40px;
+  background: var(--contact-ink);
+  color: var(--contact-bg);
+}
 .label {
   display: block;
   font-family: var(--mono);
